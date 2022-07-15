@@ -72,6 +72,6 @@ with st.form("entry_form", clear_on_submit=False):
         password = "".join(rando)
 
         ##print the password
-        st.write(str(password))
-        time.sleep(0.25)
         st.write("Your secure password is ready for use!")
+        time.sleep(0.25)
+        st.write(str(password))
