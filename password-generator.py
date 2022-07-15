@@ -73,6 +73,5 @@ with st.form("entry_form", clear_on_submit=False):
 
         ##print the password
         st.write(str(password))
-        time.sleep(0.5)
-        pyperclip.copy(password)
-        st.write("Your new password has already been copied to the clipboard!")
+        time.sleep(0.25)
+        st.write("Your secure password is ready for use!")
