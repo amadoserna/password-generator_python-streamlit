@@ -18,8 +18,8 @@ hide_st_style = """
     #MainMenu {display: none;}
     footer[class^="css-"] {display: none;}
     header[class^="css-"] {display: none;}
-    div[class^="viewerBadge_link"] {display: none;}
-    div[class^="viewerBadge_text"] {display: none;}
+    div[class^="viewerBadge_link"] {display: none !important;}
+    div[class^="viewerBadge_text"] {display: none !important;}
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
     </style>
     """
