@@ -10,7 +10,7 @@ page_icon = ":closed_lock_with_key:"
 layout = "centered"
 
 st.set_page_config(page_title=page_title, page_icon=page_icon, layout=layout)
-st.title("Quickly generate a secure password!")
+st.title("Generate a secure password!")
 
 ##hide streamlit branding
 hide_st_style = """
