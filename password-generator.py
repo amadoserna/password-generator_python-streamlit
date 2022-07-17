@@ -33,7 +33,7 @@ include_numbers = ['Yes', 'No']
 include_special_characters = ['Yes', 'No']
 
 ##input form
-st.header("Choose your security optoins:")
+st.header("Choose your security options:")
 with st.form("entry_form", clear_on_submit=False):
     st.slider("How long should your password be?", min_value=8, max_value=64, step=4, help="Longer passwords are more secure!", key="pass_length")
     col1, col2 = st.columns(2)
